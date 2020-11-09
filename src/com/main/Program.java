@@ -12,7 +12,7 @@ public class Program {
     public void run() {
         int userMenu;
         do {
-            userMenu = this.getIntegerInput("MENU\n1. Cek Pesan Rahasia\n2. Ganti Pesan Rahasia\n3. Reset Pesan Rahasia\n4. Quit\nPilihan: ");
+            userMenu = this.getIntegerInput("\n\nNama: Putu Audi Pasuatmadi\nNIM: 1908561095\nMENU\n1. Cek Pesan Rahasia\n2. Ganti Pesan Rahasia\n3. Reset Pesan Rahasia\n4. Quit\nPilihan: ");
             this.processMenu(userMenu);
         } while(userMenu != 4);
     }
